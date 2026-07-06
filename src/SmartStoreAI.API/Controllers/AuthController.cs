@@ -15,7 +15,6 @@ public class AuthController : ControllerBase
         _authService = authService;
     }
 
-    /// <summary>Cria a empresa e o usuário administrador (cadastro inicial do SaaS).</summary>
     [HttpPost("registrar")]
     public async Task<IActionResult> Registrar([FromBody] RegistrarContaRequest request)
     {

@@ -3,10 +3,11 @@
     "SmartStoreAI.API": {
       "commandName": "Project",
       "launchBrowser": true,
+      "launchUrl": "swagger",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
-      "applicationUrl": "https://localhost:57156;http://localhost:57157"
+      "applicationUrl": "https://localhost:3000;http://localhost:5173"
     }
   }
 }
